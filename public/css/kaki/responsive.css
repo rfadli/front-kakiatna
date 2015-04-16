@@ -1,0 +1,365 @@
+/*
+  Theme Name: We Can Fly
+  Theme URL: http://www.themewar.com/
+  Author: ThemeWar
+  Author URI: http://www.themewar.com/
+  Description: WeCanFly - Multipurpose Respnsive HTML5 Business Template
+  Version: 1.0.0
+*/
+
+/*=======================================================================
+[Table of contents]
+=========================================================================
+
+1. Header (Menu)
+2. Slider
+3. Features
+4. Our Blog
+5. Services
+6. Projects
+7. Testimonial
+8. Twitter Feed
+9. Partners
+10. Subscribe
+11. Footer
+
+12. Portfolio 1
+13. portfolio 2
+14. portfolio 3
+15. PortolioItem
+16. Blog Grid
+17. Blog Right Sidebar
+18. Single Post
+
+19. 404
+20. Coming Soon
+21. About Us
+22. Members
+24. Events
+25. Single Events
+
+
+
+==========================================================================*/
+
+/*=======================================================================
+[Preset Settings in preset.css]
+=========================================================================
+
+1. Fonts (Lato Light, Lato Normal, Lato Bold)
+2. Link Css
+3. Typography
+4. Section Setup
+5. Margin and padding and Border Setup
+6. Breadcrumb
+7. Page Setup
+8. UI/UX
+
+==========================================================================*/
+
+/*=======================================================================
+[Preset Settings in preset.css]
+=========================================================================
+
+1. Fonts (Niconne Regular, Roboto Regular, Roboto Bold, Roboto Condensed Regular)
+2. Link Css
+3. Section Settings
+4. Color Settings
+5. Typography Settings
+6. Testimonials
+7. Fun Facts
+8. Blog
+9. Contacts
+10. Footer
+11. Single Blog 
+12. Single portfolio
+
+==========================================================================*/
+@media(min-width: 1900px)
+{
+    .sliderItem{height: 900px;}
+    .opened .headerSocial, .headerSocial{bottom: 60px;}
+    .projectThumb img{min-width: 100%;}
+    .portfolio2Holdedr{padding-left: 0px;}
+    
+}
+
+@media (min-width: 767px) and (max-width: 980px){
+    .sliderCaption h1{font-size: 80px;}
+    .featuresHeadingHOme h2, .featuresHeadingHOme h1{font-size: 40px;}
+    .featuresHeadingHOme p{line-height: 30px;}
+    .singleFeatures.noMarginBottom{margin-bottom: 45px !important;}
+    #eatures{padding-bottom: 70px !important;}
+    .singleBlog{margin-bottom: 45px;}
+    .singleService{width: 50%;}
+    .subscribeIcon{margin: 0 auto 20px;}
+    .subscriveNote{text-align: center;}
+    .subscriveForm{width: 365px; margin-left: auto; margin-right: auto; margin-top: 15px;}
+    .footerWeidget{margin-bottom: 50px;}
+    .ld a{font-size: 18px;}
+    .singleLatestPost .bMeta span i{ padding-right: 2px; }
+    .latestPostsBody{margin-bottom: 75px;}
+    .projectThumb img{min-width: 100%;}
+    #service .singleService .serviceHover.forTab{ right: 0; width: 105%;}
+    
+    /*about*/
+    .aboutDetails{width: 100%; border-right: thin solid #e5e5e5; padding: 30px 30px 40px;}
+    .aboutImage{width: 100%;}
+    .aboutImage img{width: 100%; height: auto;}
+    .singleCounter{margin-bottom: 40px;}
+    .singleMember{width: 270px; margin: 0 auto 40px;}
+    
+    /*single Post*/
+    .authorDetails{padding-top: 20px;}
+    .authorDetails h1, .desigAuth{padding-left: 15px;}
+    .authDes{padding-left: 15px; padding-right: 15px; line-height: 28px; padding-top: 1px;}
+    .sBlog .singlePost{padding-left: 0px;}
+    .sBlog .blogDate{position: relative; margin-bottom: 20px;}
+    .sBlog .singlePostAuthor{padding-left: 0px;}
+    .sBlog .auhorImage{width: 100%; position: relative; height: auto;}
+    .sBlog .auhorImage img{width: 100%;}
+    .sBlog .authorDetails{display: inline-block;}
+    .sBlog .singlePostComment ol li.childLI, .singlePostComment ol li.childLI2{padding-left: 100px;}
+    .sBlog .singlePostComment ol li.childLI img, .singlePostComment ol li.childLI2 img{left: 0px;}
+    .sBlog .commentForm button.wcf_button{ width: 100%; margin-bottom: 10px;}
+    .sBlog .commentForm input[type="text"], .commentForm input[type="email"]{width: 100%;}
+    
+    /*Single Events*/
+    .tribe-events-event-meta{padding: 40px 15px 20px;}
+    .tribe-events-meta-group{width: 100%;}
+    .tribe-events-meta-group-venue{width: 100%;}
+    .tribe-events-venue-map{width: 100%;}
+    .singlePostComment ol li.childLI{padding-left: 100px;}
+    .singlePostComment ol li.childLI img{left: 0px;}
+    .commentForm input[type="text"], .commentForm input[type="email"]{width: 100%;}
+    .commentForm button.wcf_button{width: 100%; margin-bottom: 15px;}
+    .related{margin-bottom: 40px;}
+    
+    /*Portfolio 3*/
+    .portolioMenu ul li{margin-right: 5px; padding: 20px 15px;}
+    .portfolio2Holdedr{padding-left: 0px;}
+    .portfolio2Holdedr .singleP3.noMarginBottom{margin-bottom: 30px !important;}
+    
+    /* Portfolio 2*/
+    .singleP2{width: 50%;}
+    
+    /* Portfolio 1 */
+    .sp1_details{padding: 40px 15px; min-height: 378px;}
+    .paginations{display: inline-block;}
+    .sp1_details h1{font-size: 22px; line-height: 18px;}
+    
+    /*Members */
+    .memberThumb img{min-width: 100%;}
+    .memberDetails{padding-bottom: 80px;}
+    .memberHolder .noPaddingLeft{padding-right: 0px !important;}
+    
+    /*Events*/
+    .eventThumb img{width: 100%; height: auto;}
+    .single_events .noPaddingLeft{padding-right: 0px !important;}
+    .eventFooter span{display: inline-block; line-height: 25px;}
+    .eventFooter{height: auto; padding-bottom: 20px;}
+    .eventsDetails h1{line-height: 35px;}
+    
+    /*Contact*/
+    .contactDetails{margin-bottom: 50px;}
+    
+    /*Coming Soon*/
+    .comingSoon .sectionTitle{letter-spacing: 8px;}
+    
+    /*blog Right Sidebar*/
+    .singleBlog2{padding-left: 0px;}
+    .blogDate{position: relative; margin:  0 auto 30px;}
+    .singleBlog2Details h1{font-size: 30px; line-height: 23px;}
+    .singleBlog2Details{padding: 40px 20px;}
+    .singleBlog2Details .category{font-size: 12px;}
+    .singleBlog3 .singleBlog2Details{padding: 40px 20px; border-top: none; border-left: 1px solid #e6e6e6;}
+    .singleBlog2Thumb iframe{height: 300px;}
+    
+    /*Features*/
+    #accordion{margin-bottom: 50px;}
+    .singleCounter2, .singleCounter3{margin-bottom: 40px;}
+    .singleChart{min-height: 180px; margin-bottom: 40px;}
+    
+    /*New*/
+    .home_blog_thumb.noMarginBottom{margin-bottom: 30px !important;}
+    .hb_meta{height: auto; display: inline-block; border-bottom: none;}
+    .singleMeta{border-right: none; border-bottom: 1px solid #e6e6e6; width: 100%;}
+    .hb_det h1{line-height: 30px;}
+    
+    
+}
+@media (max-width: 600px)
+{
+    /***** Header ******/
+    .breadcrumbs ul li{padding: 0 10px;}
+    #header{ position: relative; width: 100%; }
+    .headerSocial, .searchForm{ display: none; }
+    .logo{padding-bottom: 32px;}
+    .mainMenu{padding-top: 20px; padding-bottom: 10px; top: 0px;}
+    
+    /* Slider */
+    .sliderItem{ min-height:  485px; max-height: 485px; }
+    .sliderCaption{padding-top: 28%;}
+    .sliderCaption h1{font-size: 40px; line-height: 40px; padding:  0px 40px;}
+    .sliderCaption p{font-size: 20px; width: 80%; margin: 25px auto 50px;}
+    .scroll{display: none;}
+    .sliderCaption a.black{display: none;}
+    #mainSlider .carousel-indicators{bottom: 30px; width: auto !important; right: 0; left: 0; margin:  0 auto;}
+    .featuresHeadingHOme h2{font-size: 30px; line-height:  30px;}
+    .featuresHeadingHOme h1{font-size: 30px; line-height: 30px; margin-top: 0px;}
+    .featuresHeadingHOme p{line-height: 30px;}
+    .singleFeatures{text-align: center; padding: 0px;}
+    .singleFeatures i{position: relative; left: auto; top: auto; margin-bottom: 20px; display: inline-block;}
+    .singleFeatures.noMarginBottom{margin-bottom: 45px !important; }
+    .singleBlogDetails .baSingle p{padding: 0px 10px;}
+    .singleBlog{margin-bottom: 40px;}
+    .singleService{width: 100%;}
+    .serviceHover{width: 100%; height: 100%; top: 0px; left: 0;}
+    .firstService .serviceHover, .lastService .serviceHover{width: 100%;}
+    .serviceHover{padding-top: 40px;}
+    .singleProject{padding-left: 15px; padding-right: 15px;}
+    .projectThumb img{max-width: 155%;}
+    .projectThumb{overflow: hidden;}
+    .testimonialDetails{height: 185px; padding: 15px 25px;}
+    .testimonialDetails p{line-height: 24px; font-size: 18px;}
+    .testimonials{padding-bottom: 90px;}
+    .testimonialControl.tnext{top: auto; bottom: 0px; right: 30%;}
+    .testimonialControl.tprev{top: auto; bottom: 0px; left: 30%;}
+    .singlePartner{width: 100%; margin-bottom: 50px;}
+    .singlePartner.noMarginBottom{margin-bottom: 50px !important;}
+    .subscribeIcon{margin:  0 auto 10px; float: none;}
+    #subscribe .noPaddingRight{padding-right: 15px !important;}
+    .subscriveNote h1{font-size: 18px; text-align: center;}
+    .subscriveNote p{line-height: 20px; text-align: center;}
+    .homesubscrive .subscriveForm{width: 290px; margin: 15px auto 0;}
+    .subscriveForm input[type="email"]{width: 250px;}
+    .footerWeidget{margin-bottom: 50px;}
+    .singleLatestPost .bMeta span{font-size: 11px; }
+    .singleLatestPost .bMeta span i{padding-right: 2px;}
+    #footer aside.widget{margin-bottom:  50px;}
+    #footer{padding-bottom: 65px;}
+    .ld a{font-size: 14px;}
+    #project .sectionTitle{font-size: 25px;}
+    
+    /*404*/
+    .fourZeroForHeading{font-size: 150px; line-height: 116px;}
+    .page_404 .sectionTitle{font-size: 25px;}
+    
+    /*about*/
+    .aboutDetails{width: 100%; border-right: thin solid #e5e5e5; padding: 30px 10px 40px;}
+    .aboutDetails h1{font-size: 25px; line-height: 20px;}
+    .aboutImage{width: 100%;}
+    .aboutImage img{width: 100%; height: auto;}
+    .singleCounter{margin-bottom: 50px;}
+    .sMThumb img{width: 100%;}
+    .singleMember{margin-bottom: 50px;}
+    
+    /*Blog Right Sidebar*/
+    .pageTitle{line-height: 60px;}
+    .singleBlog2{padding-left: 0px;}
+    .blogDate{position: relative; margin: 0 auto 30px;}
+    .singleBlog2Details{padding: 40px 15px;}
+    .singleBlog2Details h1{font-size: 25px; line-height: 20px;}
+    .sb2Meta{display: none;}
+    .singleBlog3 .singleBlog2Details{padding: 40px 15px; border-left: 1px solid #e6e6e6;}
+    .singleBlog2Thumb iframe{height: 200px;}
+    .paginations a{height: 35px; width: 35px; padding-top: 4px; margin-right: 0px;}
+    .sidebar{margin-top: 50px;}
+    
+    /* Coming Soon */
+    .comingSoon{position: relative; }
+    .comingSoon .sectionTitle{font-size: 30px; letter-spacing: 5px;}
+    .countdown-section{margin-bottom: 40px;}
+    
+    /*Contact Page*/
+    .contactMap{height: 250px;}
+    .contact_form{margin-top: 40px;}
+    
+    /*Events Page*/
+    .eventThumb img{min-width: 100%;}
+    .single_events .noPaddingLeft{padding-right: 0px;}
+    .eventsDetails h1{font-size: 25px; line-height: 35px;}
+    .eventFooter{height: 70px; padding-top: 16px;}
+    .eventFooter span{width: 100%; display: inline-block;}
+    .eventFooter span:first-child{margin-bottom: 10px;}
+    
+    /*Members*/
+    .memberHolder .noPaddingLeft{padding-right: 0px;}
+    .memberDetails{padding-bottom: 60px;}
+    
+    /*Portfolio1*/
+    .portolioMenu ul li{margin-bottom: 10px;}
+    .sp1_details{padding: 40px 15px;}
+    .sp1_details h1{font-size: 25px;}
+    
+    /*Portfolio 2*/
+    .portfolio2Holdedr{padding-left: 0px;}
+    .singleP2{width: 100%;}
+    
+    /*Portfolio 3*/
+    .portfolio2Holdedr .col-lg-3{max-width: 100%;}
+    .singleP3.noMarginBottom{margin-bottom: 15px !important;}
+    
+    /*Portfolio Item*/
+    .related{margin-bottom: 40px;}
+    
+    /*Single Events*/
+    .esDetails{padding: 40px 15px;}
+    .esDetails h1{font-size: 25px; line-height: 30px;}
+    .tribe-events-event-meta{padding: 40px 15px 20px;}
+    .tribe-events-meta-group{width: 100%; overflow: hidden;}
+    .tribe-events-meta-group dt{font-size: 15px;}
+    .tribe-events-meta-group dd{font-size: 14px;}
+    .tribe-events-meta-group-venue, .tribe-events-venue-map{width: 100%;}
+    .singlePostComment ol li, .singlePostComment ol li.childLI, .singlePostComment ol li.childLI2{padding-left: 0px;}
+    .singlePostComment ol li img{position: relative; margin:  0 auto 15px;}
+    .singlePostComment ol li.childLI2 img{left: 0px;}
+    .singlePostComment ol li.childLI img{left: 0px;}
+    .commentForm{padding: 30px 15px;}
+    .commentForm h1{font-size: 25px; line-height: 20px;}
+    .commentForm input[type="text"], .commentForm input[type="email"]{width: 100%;}
+    .commentForm button.wcf_button{margin-bottom: 10px; width: 100%;}
+    
+    /*Single Post*/
+    .singlePost{width: 100%; padding-left: 0px;}
+    .singlePostHeader h1{font-size: 25px; line-height: 20px;}
+    .imgDet img{margin-right: 0px; max-width: 100%;}
+    .singlePostAuthor{padding-left: 0px;}
+    .auhorImage{position: relative; width: 100%; height: auto;}
+    .auhorImage img{width: 100%; height: auto;}
+    .authorDetails{display: inline-block;}
+    .authorDetails h1{padding-left: 15px; font-size: 25px; line-height: 20px;}
+    .desigAuth{padding-left: 15px;}
+    .authDes{padding-left: 15px; padding-right: 15px;}
+    
+    /*Features*/
+    .buttonsFeatures .wcf_button, .buttonsFeatures .wcf_button2{margin-bottom: 40px;}
+    .singleCounter2, .singleCounter3{margin-bottom: 40px;}
+    .singleChart{min-height: 180px; margin-bottom: 40px;}
+    
+    /* Sub Menu */
+    .mainMenu ul li ul.submenu{
+        opacity: 1;
+        position: relative;
+        right: 0;
+        text-align: center;
+        visibility: visible;
+        width: 100%;
+        overflow: hidden;
+        display: none;
+        top: 0px;
+    }
+    .mainMenu ul li:hover ul.submenu{right: 0px; opacity: 1; visibility: visible;}
+    
+    /* New */
+    .featuresMiddleRow{margin-top: 0px; margin-bottom: 0px;}
+    .singleFeaturOne{margin-bottom: 50px !important;}
+    #features{padding-bottom: 65px;}
+    .home_blog_thumb.noMarginBottom{margin-bottom: 30px !important;}
+    .hb_meta{height: auto; display: inline-block; border-bottom: none;}
+    .singleMeta{border-right: none; border-bottom: 1px solid #e6e6e6; width: 100%;}
+    .hb_det h1{line-height: 30px;}
+    .featuresMiddleRow .singleFeaturOne.pull-left, .featuresMiddleRow .singleFeaturOne.pull-right{ float: none !important; margin:  0 auto;}
+    
+}
+

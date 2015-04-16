@@ -1,0 +1,258 @@
+/*
+  Theme Name: We Can Fly
+  Theme URL: http://www.themewar.com/
+  Author: ThemeWar
+  Author URI: http://www.themewar.com/
+  Description: WeCanFly - Multipurpose Respnsive HTML5 Business Template
+  Version: 1.0.0
+*/
+
+/*=======================================================================
+[Table of contents]
+=========================================================================
+
+1. Header (Menu)
+2. Slider
+3. Features
+4. Our Blog
+5. Services
+6. Projects
+7. Testimonial
+8. Twitter Feed
+9. Partners
+10. Subscribe
+11. Footer
+
+12. Portfolio 1
+13. portfolio 2
+14. portfolio 3
+15. PortolioItem
+16. Blog Grid
+17. Blog Right Sidebar
+18. Single Post
+
+19. 404
+20. Coming Soon
+21. About Us
+22. Members
+24. Events
+25. Single Events
+
+
+
+==========================================================================*/
+
+/*=======================================================================
+[Preset Settings in preset.css]
+=========================================================================
+
+1. Fonts (Lato Light, Lato Normal, Lato Bold)
+2. Link Css
+3. Typography
+4. Section Setup
+5. Margin and padding and Border Setup
+6. Breadcrumb
+7. Page Setup
+8. UI/UX
+
+==========================================================================*/
+
+/*=======================================================================
+[Preset Settings in preset.css]
+=========================================================================
+
+1. Fonts (Niconne Regular, Roboto Regular, Roboto Bold, Roboto Condensed Regular)
+2. Link Css
+3. Section Settings
+4. Color Settings
+5. Typography Settings
+6. Testimonials
+7. Fun Facts
+8. Blog
+9. Contacts
+10. Footer
+11. Single Blog 
+12. Single portfolio
+
+==========================================================================*/
+
+/*================================= Preset Dark ========================================*/
+
+/*Header*/
+.header{ background: #FFFFFF; }
+.logo a{color: #282828;}
+.logo a:hover span{color: #282828;}
+.mainMenu ul li > a{color: #282828; border-color: #e5e5e5;}
+.searchForm input[type="text"]{border: 1px solid #e5e5e5; border-right: none;}
+
+/*Dark Extra*/
+.singleCounter2 p{color: #FFFFFF;}
+.titleHR5 span, .titleHR3 i{background: #282828;}
+.ui-accordion-header{color: #999999;}
+#tabs ul li a, .verticalTab ul li a{color: #999999;}
+.mainMenu ul li ul.submenu li a, .subContainer ul li a{color: #FFFFFF;}
+.mainMenu ul li ul.submenu li a:hover{color: #f78775;}
+
+/*Features*/
+#eatures{background: #282828;}
+.featuresHeadingHOme h2, .singleFeatures h5 a{color: #FFFFFF;}
+.featuresHeadingHOme a:hover{background: #f78775; color: #282828}
+
+/*Blog*/
+#our_blog{background: #191919;}
+#our_blog .sectionTitle{color: #FFFFFF;}
+.singleBlogDetails{background: #282828; border-color: #404040;}
+.blogAction{background: #191919; border-color: #404040;}
+.blogAction .baSingle{border-color: #404040;}
+.singleBlogDetails h4 a{color: #FFFFFF;}
+.blogAction .baSingle a:hover i{ color: #FFFFFF; }
+.blogAction .baSingle a:hover p{color: #999999;}
+
+/* Service */
+.serviceHover i{color: #FFFFFF;}
+.serviceHover a{background: #FFFFFF; color: #282828;}
+
+/* Projects */
+#project{background: #282828;}
+#project .sectionTitle{color: #FFFFFF;}
+.projectDetails{background: #191919;}
+.projectDetails h4 a, .projectDetails p a:hover, .projectCarouselController a:hover{color: #FFFFFF;}
+.projectCarouselController a{border-color: #404040;}
+
+/*Testimonial*/
+#testimonial{background: #282828;}
+#testimonial .sectionTitle{color: #FFFFFF;}
+.testimonialControl{border-color: #404040;}
+.testimonialControl:hover{color: #FFFFFF;};
+.test_head h4{color: #FFFFFF;}
+.testimonialDetails{border-color: #404040;}
+.testimonialDetails:before{background: url("../../images/arrow_dark1.png") no-repeat scroll center center rgba(0, 0, 0, 0)}
+
+/*Clients*/
+#clients{background: #282828;}
+#clients .sectionTitle{color: #FFFFFF;}
+
+/* 404 Page */
+#page{background: #282828;}
+#breadcrumbs{background: #191919;}
+.breadcrumbs ul li span{color: #999999;}
+.breadcrumbs ul li a:hover{color: #FFFFFF;}
+
+/*About*/
+#page .pageTitle{color: #FFFFFF;};
+.aboutDetails h1{color: #FFFFFF;}
+.aboutDetails{border-color: #404040;}
+.aboutDetails .wcf_button:hover{ background: #f78775; color: #282828;}
+#team{background: #191919};
+#team .sectionTitle{color: #FFFFFF;}
+.sMDetails{background: #282828; border-color: #404040;}
+.sMDetails h1 a{color: #FFFFFF;}
+.sMSocial{background: #404040; border-color: #404040;}
+#clients.aboutclients{background: #282828;}
+.darkWhite{color: #FFFFFF;}
+
+/* Blog right sidebar*/
+.bMy{color: #999999;}
+.sidebar .widget-title{color: #FFFFFF;}
+.sidebar .widget form button[type="submit"]{background: #999999;}
+.singleBlog2Details h1 a{color: #FFFFFF;}
+.singleBlog2Details, .sb2Meta, .singleBlog3 .singleBlog2Details{border-color: #404040;}
+.category{color: #999999;}
+.category a:hover{color: #999999;}
+.wcf_button:hover{background: #f78775 !important; color: #282828 !important;}
+.spDetails p{color: #FFFFFF;}
+.tags a{color: #FFFFFF; border-color: #404040;}
+.paginations a{color: #999999;}
+
+/*Coming Soon*/
+.comingSoon{background:  #282828;}
+.comingSoon .sectionTitle{color: #FFFFFF;}
+.comingSoon .subTitle{color: #999999;}
+.comingSoon .titleHR span{background: #f78775;}
+.countdown-amount, .countdown-section{color: #FFFFFF;}
+.comingSoon .subscriveForm button{background: #999999;}
+.comingSoon .subscriveForm input[type="email"]{border: none;}
+
+/*Contact*/
+.contactDetails h1{color: #FFFFFF;}
+.contactDetails ul li span{color: #999999;}
+.contactDetails ul li{border-color: #404040;}
+.contact_form textarea, .contact_form input[type="text"], .contact_form input[type="email"]{background: none; border: 1px solid #404040; color: #FFFFFF;}
+
+/*Events*/
+#calendar_wrap table caption{color: #999999;}
+#calendar_wrap{border-color: #404040;}
+#calendar_wrap table thead th{color: #999999;}
+.single_events{border-color: #404040;}
+.eventsDetails h1 a{color: #FFFFFF;}
+.eventFooter{background: #404040; border-color: #404040;}
+.eventFooter span{color: #999999;}
+
+/*Members*/
+.memberHolder{border-color: #404040;}
+.memberDetails h1{color: #FFFFFF;}
+.memberDetails ul li span{color: #999999;}
+.memberFooter{background: #404040; border-color: #404040;}
+.sectionTitle{color: #FFFFFF;}
+
+/*Portfolio*/
+.portolioMenu ul li{color: #999999; border-color: #404040;}
+.sp1_details h1{color: #FFFFFF;}
+.sp1_details{border-color: #404040;}
+
+/*Portfolio Item*/
+.pDDetails{border-color: #404040;}
+.pDDetails h2{color: #FFFFFF;}
+.pDsocial{background: #404040; border-color: #404040;}
+#related{background: #191919;}
+.relatedDetails{background: #404040; border-color: #404040;}
+.relatedDetails h4 a{color: #FFFFFF;}
+
+/*Single Event*/
+.esDetails{border-color: #404040;}
+.esDetails h1{color: #FFFFFF;}
+.eventExcerpt{color: #999999; border-color: #404040;}
+.tribe-events-meta-group h3, .tribe-events-meta-group-venue h3{color: #FFFFFF;}
+.tribe-events-meta-group dt, .tribe-events-meta-group-venue dt{color: #999999;}
+.tribe-events-event-meta{border-color: #404040;}
+.single_populer{border-color: #404040;}
+.sidebar .widget ul li{border-color: #404040;}
+dd a:hover, .commentMeta a:hover{color: #999999;}
+.singlePostComment h1{color: #FFFFFF;}
+.commentMeta span{color: #999999;}
+.singlePostComment ol li{border-color: #404040;}
+.commentForm{border-color: #404040;}
+.commentForm h1{color: #FFFFFF;}
+.commentForm textarea, .commentForm input[type="text"], .commentForm input[type="email"]{background: none; color: #FFFFFF; border-color: #404040;}
+
+/*Single Post*/
+.singlePostHeader h1{color: #FFFFFF;}
+.singlePostDetails .postExcerpt{color: #999999; border-color: #404040;}
+blockquote{color: #999999;}
+.authorDetails{border-color: #404040;}
+.authorDetails h1{color: #FFFFFF;}
+.authorSocial{background: #404040; border-color: #404040;}
+
+/*Loader*/
+.loader{background: #282828;}
+.spinner > div:nth-child(even){background: #f78775;}
+
+/* New */
+.whiteOverlay{background: rgba(40, 40, 40, .9);}
+.singleFeaturOne h5 a{color: #FFFFFF;}
+.singleFeaturOne p{color: #999999;}
+.hbt_meta, .hbt_singleMeta, .singleMeta{border-color: #444;}
+.hbt_meta{background: #282828;}
+.hbt_singleMeta a{color: #999999;}
+.hb_details{border-color: #444;}
+.hb_meta{border-color: #444; background: #282828;}
+.singleMeta a{color: #999999;}
+.hb_det{background: #282828;}
+.hb_det h1 a{color: #999999;}
+.priceOverlay{background: none repeat scroll 0 0 rgba(40, 40, 40, 0.85)}
+
+/*Dark Features*/
+h1, h2, h3, h4, h5, h6{color: #999999;}
+.skill p, .dataparcentange{color: #999999;}
+.skillstyle2 .skillarea{background: #f78775;}
+.chart .percent, .singleChart h3{color: #999999;}

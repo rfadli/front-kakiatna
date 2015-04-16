@@ -1,0 +1,215 @@
+/*
+  Theme Name: We Can Fly
+  Theme URL: http://www.themewar.com/
+  Author: ThemeWar
+  Author URI: http://www.themewar.com/
+  Description: WeCanFly - Multipurpose Respnsive HTML5 Business Template
+  Version: 1.0.0
+*/
+
+/*=======================================================================
+[Table of contents]
+=========================================================================
+
+1. Header (Menu)
+2. Slider
+3. Features
+4. Our Blog
+5. Services
+6. Projects
+7. Testimonial
+8. Twitter Feed
+9. Partners
+10. Subscribe
+11. Footer
+
+12. Portfolio 1
+13. portfolio 2
+14. portfolio 3
+15. PortolioItem
+16. Blog Grid
+17. Blog Right Sidebar
+18. Single Post
+
+19. 404
+20. Coming Soon
+21. About Us
+22. Members
+24. Events
+25. Single Events
+
+
+
+==========================================================================*/
+
+/*=======================================================================
+[Preset Settings in preset.css]
+=========================================================================
+
+1. Fonts (Lato Light, Lato Normal, Lato Bold)
+2. Link Css
+3. Typography
+4. Section Setup
+5. Margin and padding and Border Setup
+6. Breadcrumb
+7. Page Setup
+8. UI/UX
+
+==========================================================================*/
+
+/*=======================================================================
+[Preset Settings in preset.css]
+=========================================================================
+
+1. Fonts (Niconne Regular, Roboto Regular, Roboto Bold, Roboto Condensed Regular)
+2. Link Css
+3. Section Settings
+4. Color Settings
+5. Typography Settings
+6. Testimonials
+7. Fun Facts
+8. Blog
+9. Contacts
+10. Footer
+11. Single Blog 
+12. Single portfolio
+
+==========================================================================*/
+
+/*================================= Preset Green #b6b229 == rgb(182, 178, 41) ========================================*/
+
+/*Preset*/
+.titleHR span, .titleHR2 span{background: #b6b229;}
+.titleHR3 i{color: #b6b229;}
+.breadcrumbs ul li a{color: #b6b229;}
+.wcf_button{background: #b6b229;}
+.wcf_button2{background: #b6b229;}
+.wcf_button2:hover span{background: #b6b229;}
+blockquote{border-left-color: #b6b229;}
+
+
+
+/*Header*/
+.menuButtonArea{ background: #b6b229;}
+.logo a span{color: #b6b229;}
+.logo a:hover{color: #b6b229;}
+.mainMenu ul li a:hover, .mainMenu ul li.active a{color: #b6b229;}
+.searchForm button[type="submit"]{background: #b6b229;}
+.redCaption.sliderCaption h1{color: #b6b229;}
+.sliderCaption a{background: #b6b229;}
+.sliderCaption a.black:hover{color: #b6b229;}
+
+.mainMenu ul li ul.submenu li a:hover{color: #b6b229;}
+.mainMenu ul li:hover > a{color: #b6b229;}
+.paletSwitch, #backToTop{background: #b6b229;}
+.skillstyle2 .singleskill{border-color: #b6b229;}
+.titleHR4 span{background: #b6b229;}
+.titleHR5 span{color: #b6b229; border-color: #b6b229;}
+.verticalTab ul li a:hover, .verticalTab ul li.ui-tabs-active a{color: #b6b229;}
+.singleCounter2 i, .singleCounter2 .timer{color: #b6b229;}
+.singleCounter3{background: #b6b229;}
+
+/*Features*/
+.featuresHeadingHOme h1{color: #b6b229;}
+.featuresHeadingHOme a{background: #b6b229;}
+.singleFeatures i{color: #b6b229;}
+.singleFeatures h5 a:hover{color: #b6b229;}
+
+/* Blog */
+.authorHover{background: rgba(182, 178, 41, .9);}
+.singleBlogDetails h4 a:hover, .baSingle i{color: #b6b229;}
+
+/*Service*/
+.singleService i{color: #b6b229;}
+.serviceHover{background: #b6b229;}
+.serviceHover i{color: #FFFFFF;}
+.serviceHover a:hover{color: #b6b229;}
+
+/*Project*/
+.projectCarouselController a, .projectDetails h4 a:hover, .projectDetails p a{color: #b6b229;}
+.projectHover a{background: #b6b229;}
+
+/*Testimonial*/
+.testimonialControl, .test_head a{color: #b6b229;}
+.testimonialDetails { background: url("../../images/testiback_green.png") no-repeat scroll center 45px rgba(0, 0, 0, 0);}
+
+/*Twitt*/
+.twittIcon{background: #b6b229;}
+.twittDetails a, .twittMeta a{color: #b6b229;}
+
+/*Subscribe*/
+#subscribe{background: #b6b229;}
+.subscriveForm button:hover, .subscribeIcon{color: #b6b229;}
+
+/*Footer*/
+.introWedget h1 span, .introWedget h1:hover{color: #b6b229;}
+.conInfo i, .ld a:hover, 
+.singleLatestPost .bMeta span i,
+#flickerCarousel .carousel-control.left:hover, 
+#flickerCarousel .carousel-control.right:hover, 
+.copyRightText a{color: #b6b229;}
+.loader{background: #b6b229;}
+
+/*404*/
+.fourZeroForHeading{color: #b6b229;}
+
+/*About US*/
+.singleCounter .timer, 
+.sMDetails h1 a:hover, 
+.sMDetails p{color: #b6b229;}
+.sMSocial a:hover{color: #b6b229;}
+
+/* Blog Right Sidebar */
+.bDate, .sidebar .widget form button[type="submit"]:hover{background: #b6b229;}
+.sidebar .widget ul li a:hover{ color: #b6b229;}
+.category a, .spDetails a:hover{color: #b6b229;}
+.tags a:hover{border-color: #b6b229; background: #b6b229;}
+.paginations a:first-child, .paginations a:last-child{color: #b6b229;}
+.paginations a:hover, .paginations a.active, .paginations a.current{background: #b6b229; border-color: #b6b229;}
+.paginations a:first-child:hover, .paginations a:last-child:hover{color: #ffffff;}
+.singleBlog2Details h1 a:hover{color: #b6b229;}
+.sidebar .widget ul li a{ background: url("../../images/li_arrow_green.png") no-repeat scroll 98% center rgba(0, 0, 0, 0)}
+
+/* Coming Soon */
+.comingSoon{background: #b6b229;}
+
+/* Contact */
+.contactDetails ul li i{color: #b6b229;}
+.contact_form input[type="text"]:focus, .contact_form input[type="email"]:focus, 
+.contact_form textarea:focus{border-color: #b6b229;}
+
+/* Events */
+.eventsDetails h1 a:hover, .eventFooter span i{color: #b6b229;}
+#calendar_wrap table td#today{color: #b6b229;}
+
+/* Features */
+.featuresHeading, .featuresBorder{background: #b6b229;}
+.ui-accordion-header:hover, .ui-accordion-header-active{color: #b6b229; border-color: #b6b229;}
+#tabs ul li a:hover, #tabs ul li.ui-tabs-active a{color: #b6b229; border-color: #b6b229;}
+.singleskill{background: #b6b229;}
+
+/* Members */
+.memberDetails ul li i{color: #b6b229;}
+.memverSocial a:hover{color: #b6b229;}
+
+/* Portfolio */
+.portolioMenu ul li.active, .portolioMenu ul li:hover{border-color: #b6b229; background: #b6b229;}
+.sp2Hover a{background: #b6b229;}
+.pDsocial a:hover{color: #b6b229;}
+
+/*Single Event*/
+.esDetails h1 a, dd a, .commentMeta a{color: #b6b229;}
+
+/*Single Post*/
+.desigAuth, .authorSocial a:hover{color: #b6b229;}
+
+/* New */
+.singleFeaturOne i{color: #b6b229;}
+.singleFeaturOne h5 a:hover{color: #b6b229;}
+.hbt_singleMeta a i{color: #b6b229;}
+.hbt_singleMeta a:hover{color: #b6b229;}
+.hb_det h1 a:hover{color: #b6b229;}
+.singleMeta a i, .singleMeta a:hover{color: #b6b229;}
+.PriceHeiding a{background: #b6b229;}
+.priceBody ul li i, .priceFooter span{color: #b6b229;}
+.testimonialControl{background: #b6b229; border-color: #b6b229; color: #FFFFFF;}
